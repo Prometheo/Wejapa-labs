@@ -16,6 +16,20 @@
 points = 174  # use this input to make your submission
 
 # write your if statement here
+if points >= 1 and points <= 50:
+    prize = "wooden rabbit"
+    result = f"Congratulations! You won a {prize.title()}"
+elif points > 50 and points <= 150:
+    prize = "no prize"
+    result = f"Congratulations! You won a {prize.title()}"
+elif points > 150 and points <= 180:
+    prize = "wafer-thin mint"
+    result = f"Congratulations! You won a {prize.title()}"
+elif points > 180 and points <= 200:
+    prize = "penguin"
+    result = f"Congratulations! You won a {prize.title()}"
+else :
+    result = "Oh dear!, no prize ths time!"
 
 
 print(result)

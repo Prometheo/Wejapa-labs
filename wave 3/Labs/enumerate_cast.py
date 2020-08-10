@@ -5,6 +5,7 @@ cast = ["Barney Stinson", "Robin Scherbatsky", "Ted Mosby", "Lily Aldrin", "Mars
 heights = [72, 68, 72, 66, 76]
 
 # write your for loop here
-
+for hait, character in enumerate(cast):
+    cast[hait] = character + " " + str(heights[hait])
 
 print(cast)

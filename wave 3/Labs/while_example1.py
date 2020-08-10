@@ -8,12 +8,14 @@
 
 
 
-start_num = #provide some start number
-end_num = #provide some end number that you stop when you hit
-count_by = #provide some number to count by 
+start_num = 0 #provide some start number
+end_num = 250 #provide some end number that you stop when you hit
+count_by = 5 #provide some number to count by 
 
 # write a while loop that uses break_num as the ongoing number to 
 #   check against end_num
-
+break_num = start_num
+while break_num + count_by < end_num:
+    break_num += count_by
 
 print(break_num)

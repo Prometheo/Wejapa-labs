@@ -11,7 +11,8 @@ product = 1
 
 # write your for loop here
 
-
+for num in range(2, number+1):
+    product *= num
 
 # print the factorial of number
 print(product)

@@ -12,6 +12,11 @@ html_str = "<ul>\n"  # "\ n" is the character that marks the end of the line, it
                      # the characters that are after it in html_str are on the next line
 
 # write your code here
-
+counter = 0
+for item in items:
+    html_str += '<li>' + item + '</li>\n'
+    counter +=1
+    if counter == len(items):
+        html_str += '</ul>'
 
 print(html_str)

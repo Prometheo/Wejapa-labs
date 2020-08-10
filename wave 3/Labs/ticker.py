@@ -13,6 +13,11 @@ headlines = ["Local Bear Eaten by Man",
 
 news_ticker = ""
 # write your loop here
+for headline in headlines:
+    news_ticker += headline + " "
+    if len(news_ticker) >= 140:
+        news_ticker = news_ticker[:140]
+        break
 
 
 print(news_ticker)

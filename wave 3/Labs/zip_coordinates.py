@@ -10,6 +10,9 @@ labels = ["F", "J", "A", "Q", "Y", "B", "W", "X"]
 points = []
 # write your for loop here
 
+for n, label in enumerate(labels):
+    points.append(label + ": " + str(x_coord[n]) + ', ' + str(y_coord[n]) + ', ' + str(z_coord[n]))
+
 
 for point in points:
     print(point)
